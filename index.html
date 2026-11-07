@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#080a11">
+  <meta name="description" content="Nihil — an independent DOFUS guild. Guild dispatches, upcoming adventures, and the people who make the journey worthwhile.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Nihil | A DOFUS Guild">
+  <meta property="og:description" content="Out of nothing, we become legend. Explore the Nihil guild hub.">
+  <meta property="og:image" content="assets/nihil-heroes.webp">
+  <title>Nihil — A DOFUS Guild</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700;800&family=DM+Sans:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <svg class="icon-sprites" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+    <symbol id="ico-arrow" viewBox="0 0 24 24"><path d="M4 12h16m-7-7 7 7-7 7"/></symbol>
+    <symbol id="ico-arrow-diagonal" viewBox="0 0 24 24"><path d="M5 19 19 5M8 5h11v11"/></symbol>
+    <symbol id="ico-lock" viewBox="0 0 24 24"><rect x="5" y="10" width="14" height="11" rx="2"/><path d="M8 10V7a4 4 0 0 1 8 0v3m-4 5v2"/></symbol>
+    <symbol id="ico-menu" viewBox="0 0 24 24"><path d="M4 8h16M4 16h16"/></symbol>
+    <symbol id="ico-close" viewBox="0 0 24 24"><path d="m5 5 14 14M19 5 5 19"/></symbol>
+    <symbol id="ico-calendar" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M7 3v4m10-4v4M3 10h18"/></symbol>
+    <symbol id="ico-swords" viewBox="0 0 24 24"><path d="m4 4 6 6m-5-1-3 3 8 8 3-3m-3-7 10-7 1 4-7 10m7-13 1 4-4-1m-10 8-5 5"/></symbol>
+    <symbol id="ico-discord" viewBox="0 0 24 24"><path d="M8 7c2.7-1.2 5.3-1.2 8 0 1.4-1 2.5-1.1 2.5-1.1C20.3 8.6 21 12 20.5 16c-1.3 1.3-2.6 1.8-4 2.1l-.8-1.4c.8-.3 1.4-.6 2-1m-11.4 0c.6.4 1.3.8 2 1l-.8 1.4c-1.4-.3-2.7-.8-4-2.1C3 12 3.7 8.6 5.5 5.9c0 0 1.1.1 2.5 1.1Z"/><circle cx="9" cy="12.5" r="1" fill="currentColor" stroke="none"/><circle cx="15" cy="12.5" r="1" fill="currentColor" stroke="none"/></symbol>
+    <symbol id="ico-chevron" viewBox="0 0 24 24"><path d="m9 6 6 6-6 6"/></symbol>
+    <symbol id="ico-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></symbol>
+  </svg>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+
+  <header class="site-header" id="top">
+    <div class="site-width nav-inner">
+      <a class="wordmark" href="#top" aria-label="Nihil home">
+        <img src="assets/nihil-mark.svg" alt="" width="42" height="45">
+        <span class="wordmark-copy"><strong>NIHIL</strong><small>DOFUS GUILD</small></span>
+      </a>
+      <nav class="main-nav" id="main-nav" aria-label="Main navigation">
+        <a href="#guild">The guild</a>
+        <a href="#news">Dispatches</a>
+        <a href="#events">War room</a>
+      </nav>
+      <button class="portal-button" data-open-portal type="button"><svg class="icon"><use href="#ico-lock"/></svg><span>Member portal</span><span class="portal-button-rune">↗</span></button>
+      <button class="nav-toggle" id="nav-toggle" type="button" aria-label="Open navigation" aria-controls="main-nav" aria-expanded="false"><svg class="icon"><use href="#ico-menu"/></svg></button>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-art" role="img" aria-label="Original fantasy illustration of four adventurers representing time magic, elemental magic, portals, and shadows"></div>
+      <div class="hero-grid" aria-hidden="true"></div>
+      <div class="hero-corners" aria-hidden="true"><span></span><span></span></div>
+      <div class="site-width hero-inner">
+        <div class="hero-copy">
+          <p class="hero-prelude">THE VOID IS NOT EMPTY.</p>
+          <h1 id="hero-title">WE ARE<br><em>NIHIL<span class="hero-period">.</span></em></h1>
+          <p class="hero-description">Adventures worth taking. Battles worth fighting. A guild worth calling home. Welcome to our corner of the World of Twelve.</p>
+          <div class="hero-actions">
+            <a class="btn btn-glow" href="#guild">Explore the guild <svg class="icon"><use href="#ico-arrow"/></svg></a>
+            <a class="btn-link" href="#events">View upcoming plans <svg class="icon"><use href="#ico-arrow-diagonal"/></svg></a>
+          </div>
+        </div>
+        <div class="hero-graphic-note" aria-hidden="true"><span class="note-diamond">✦</span><span>FROM NOTHING<br>COMES EVERYTHING</span></div>
+        <div class="hero-bottom">
+          <span><span class="crosshair">✳</span> GUILD IDENTITY / NIHIL</span>
+          <span>STRATEGY <b>✧</b> CAMARADERIE <b>✧</b> ADVENTURE</span>
+          <a href="#guild" aria-label="Scroll to guild introduction">SCROLL TO EXPLORE <span>↓</span></a>
+        </div>
+      </div>
+    </section>
+
+    <div class="marquee" aria-label="Our motto: forged in the void, united by adventure, always moving forward">
+      <div class="marquee-track" id="marquee-track" aria-hidden="true"><span>FORGED IN THE VOID</span><b>✧</b><span>UNITED BY ADVENTURE</span><b>✧</b><span>THE WORLD OF TWELVE AWAITS</span><b>✧</b><span>FORGED IN THE VOID</span><b>✧</b><span>UNITED BY ADVENTURE</span><b>✧</b><span>THE WORLD OF TWELVE AWAITS</span><b>✧</b></div>
+    </div>
+
+    <section class="guild-section section-pad" id="guild" aria-labelledby="guild-title">
+      <div class="site-width">
+        <div class="section-label"><span>01 <i></i> THE GUILD</span><span class="section-label-right">WHO WE ARE / WHY WE PLAY</span></div>
+        <div class="guild-intro">
+          <div><p class="overline">MORE THAN A NAME</p><h2 id="guild-title" class="section-title">Nothing alone.<br><em>Everything together.</em></h2></div>
+          <div class="intro-aside"><div class="intro-symbol" aria-hidden="true">✦</div><p>Nihil is a place for players who love the journey as much as the victory. We coordinate, learn, laugh, and take on whatever the World of Twelve throws our way.</p><a class="underlined-link" href="#news">See guild updates <svg class="icon"><use href="#ico-arrow"/></svg></a></div>
+        </div>
+        <div class="values-grid">
+          <article class="value-card"><div class="value-top"><span>THE FIRST TENET</span><span>01 / 03</span></div><div class="value-icon icon-orbit" aria-hidden="true"><span></span><span></span><span></span></div><h3>Play with purpose.</h3><p>From dungeon mechanics to team compositions, we make every run count.</p></article>
+          <article class="value-card"><div class="value-top"><span>THE SECOND TENET</span><span>02 / 03</span></div><div class="value-icon icon-star" aria-hidden="true">✧</div><h3>Grow together.</h3><p>Great progress means more when the whole guild gets stronger.</p></article>
+          <article class="value-card"><div class="value-top"><span>THE THIRD TENET</span><span>03 / 03</span></div><div class="value-icon icon-spark" aria-hidden="true">✳</div><h3>Enjoy the chaos.</h3><p>The best stories are rarely the fights that go exactly to plan.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="news-section section-pad" id="news" aria-labelledby="news-title">
+      <div class="site-width">
+        <div class="section-label"><span>02 <i></i> THE DISPATCHES</span><span class="section-label-right">THE LATEST FROM THE VOID</span></div>
+        <div class="section-heading-row"><div><p class="overline">GUILD BULLETIN</p><h2 id="news-title" class="section-title">Messages from <em>the void.</em></h2></div><p class="section-support">Announcements and plans worth catching up on.</p></div>
+        <div class="filter-bar" role="group" aria-label="Filter dispatches"><button class="filter-btn active" type="button" data-filter="all" aria-pressed="true"><span class="filter-desktop">All dispatches</span><span class="filter-mobile">All</span> <span>03</span></button><button class="filter-btn" type="button" data-filter="announcement" aria-pressed="false"><span class="filter-desktop">Announcements</span><span class="filter-mobile">News</span></button><button class="filter-btn" type="button" data-filter="plans" aria-pressed="false"><span class="filter-desktop">Plans & raids</span><span class="filter-mobile">Plans</span></button><button class="filter-btn" type="button" data-filter="community" aria-pressed="false">Community</button><span class="filter-note">DEMO CONTENT / EDITABLE</span></div>
+        <div class="news-layout" id="news-feed">
+          <button class="story story-feature" data-story="welcome" data-category="announcement" type="button">
+            <div class="story-feature-art" aria-hidden="true"></div><div class="story-feature-shade"></div>
+            <div class="story-top"><span class="story-tag"><span class="tag-dot"></span> ANNOUNCEMENT</span><span class="story-number">01 / 03</span></div>
+            <div class="story-feature-copy"><span class="story-meta">FIELD NOTES <span>•</span> SAMPLE DISPATCH</span><h3>A new home for <em>Nihil.</em></h3><p>Every guild has a story. This is where ours will live—from our first notes to our biggest victories.</p><span class="story-action">READ DISPATCH <svg class="icon"><use href="#ico-arrow-diagonal"/></svg></span></div>
+          </button>
+          <div class="news-side">
+            <button class="story story-small" data-story="dungeons" data-category="plans" type="button"><div class="story-mini-art mini-portal" aria-hidden="true"><span class="portal-ring"></span></div><div class="story-mini-copy"><span class="story-tag muted">PLANS & RAIDS</span><h3>Next stop:<br>the dungeon board.</h3><p>Ideas for group runs, boss attempts, and everything in between.</p><span class="story-action">VIEW NOTES <svg class="icon"><use href="#ico-arrow-diagonal"/></svg></span></div><span class="small-number">02</span></button>
+            <button class="story story-small" data-story="people" data-category="community" type="button"><div class="story-mini-art mini-crest" aria-hidden="true"><img src="assets/nihil-mark.svg" alt=""></div><div class="story-mini-copy"><span class="story-tag muted">COMMUNITY</span><h3>The people behind<br>the party.</h3><p>A corner for milestones, guild moments, and the characters we play.</p><span class="story-action">VIEW NOTES <svg class="icon"><use href="#ico-arrow-diagonal"/></svg></span></div><span class="small-number">03</span></button>
+          </div>
+        </div>
+        <p class="sample-disclaimer"><span>✳</span> Sample posts — replace with your guild’s news.</p>
+      </div>
+    </section>
+
+
+    <section class="events-section section-pad" id="events" aria-labelledby="events-title">
+      <div class="site-width">
+        <div class="section-label"><span>03 <i></i> THE WAR ROOM</span><span class="section-label-right">PLANS / OPERATIONS / GATHERINGS</span></div>
+        <div class="events-layout">
+          <div class="events-copy"><p class="overline">UP NEXT FOR NIHIL</p><h2 id="events-title" class="section-title">Ready for<br><em>what’s next.</em></h2><p>Runs, PvP, and guild nights—our plans in one place. Dates will appear here when events are scheduled.</p><div class="events-status"><span class="status-glow"></span> CALENDAR PREVIEW <span class="status-sep">/</span> NO DATES SET</div></div>
+          <div class="event-board" aria-label="Example upcoming guild event categories"><div class="board-heading"><span>OPERATION BOARD</span><span>NIHIL // FIELD PLANNER</span></div>
+            <div class="event-row"><div class="event-date"><span>01</span><small>TBD</small></div><div class="event-info"><span>TEAM CONTENT</span><h3>Dungeon night</h3><p>Runs, challenges, and maybe a little improvisation.</p></div><div class="event-icon"><svg class="icon"><use href="#ico-swords"/></svg></div></div>
+            <div class="event-row"><div class="event-date"><span>02</span><small>TBD</small></div><div class="event-info"><span>PVP / PRACTICE</span><h3>Kolossium sessions</h3><p>Work on compositions, test ideas, and queue up.</p></div><div class="event-icon"><svg class="icon"><use href="#ico-clock"/></svg></div></div>
+            <div class="event-row"><div class="event-date"><span>03</span><small>TBD</small></div><div class="event-info"><span>GUILD / COMMUNITY</span><h3>Guild gathering</h3><p>Make plans, swap stories, and catch up.</p></div><div class="event-icon"><svg class="icon"><use href="#ico-calendar"/></svg></div></div>
+            <div class="board-bottom"><span>✳</span> DEMO SCHEDULE — EVENTS TO BE ANNOUNCED <span class="board-dots">•••</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer"><div class="site-width"><div class="footer-top"><a class="wordmark footer-logo" href="#top" aria-label="Back to top"><img src="assets/nihil-mark.svg" alt="" width="40" height="43"><span class="wordmark-copy"><strong>NIHIL</strong><small>A DOFUS GUILD</small></span></a><span>UNITED BY ADVENTURE. BUILT FOR THE JOURNEY.</span><a href="#top" class="back-top">BACK TO TOP ↑</a></div><div class="footer-bottom"><p>Independent fan-made guild hub. Not affiliated with Ankama. DOFUS and its characters belong to Ankama Games. Character illustrations on this site are original, class-inspired artwork.</p><a href="https://www.dofus.com/" target="_blank" rel="noopener noreferrer">OFFICIAL DOFUS SITE <svg class="icon"><use href="#ico-arrow-diagonal"/></svg></a><span>© <span id="year"></span> NIHIL</span></div></div></footer>
+
+  <dialog class="modal portal-modal" id="portal-dialog" aria-labelledby="portal-title"><div class="modal-content"><button class="modal-close" aria-label="Close member portal" data-close-dialog type="button"><svg class="icon"><use href="#ico-close"/></svg></button><img src="assets/nihil-mark.svg" class="portal-mark" alt="" width="60" height="65"><span class="modal-overline">NIHIL / SECURE ACCESS</span><h2 id="portal-title">The portal is <em>not yet open.</em></h2><p>Member accounts are planned for a future version. Here's a preview of how guild sign-in will look.</p><div class="login-preview"><label for="login-name">GUILD ACCOUNT</label><input id="login-name" type="text" placeholder="Character name" disabled autocomplete="off"><label for="login-password">PASSWORD</label><input id="login-password" type="password" placeholder="••••••••••" disabled autocomplete="off"><button type="button" disabled>ACCESS COMING SOON <svg class="icon"><use href="#ico-lock"/></svg></button></div><span class="modal-bottom-note">PREVIEW ONLY — NO INFORMATION IS COLLECTED</span></div></dialog>
+  <dialog class="modal story-modal" id="story-dialog" aria-labelledby="story-dialog-title"><div class="modal-content"><button class="modal-close" aria-label="Close dispatch" data-close-dialog type="button"><svg class="icon"><use href="#ico-close"/></svg></button><span class="modal-overline" id="story-dialog-tag"></span><h2 id="story-dialog-title"></h2><div class="story-modal-body" id="story-dialog-body"></div><div class="story-modal-end"><span>NIHIL <b>✧</b> GUILD DISPATCHES</span><button class="underlined-link" data-close-dialog type="button">BACK TO DISPATCHES <svg class="icon"><use href="#ico-arrow"/></svg></button></div></div></dialog>
+</body>
+</html>

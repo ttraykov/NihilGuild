@@ -1,0 +1,9 @@
+<svg width="88" height="96" viewBox="0 0 88 96" fill="none" xmlns="http://www.w3.org/2000/svg">
+ <defs><linearGradient id="gold" x1="0" y1="0" x2="88" y2="96" gradientUnits="userSpaceOnUse"><stop stop-color="#FFF1BF"/><stop offset=".45" stop-color="#D2AC63"/><stop offset="1" stop-color="#82639B"/></linearGradient><linearGradient id="amethyst" x1="17" y1="5" x2="78" y2="93" gradientUnits="userSpaceOnUse"><stop stop-color="#B8A6FE"/><stop offset=".52" stop-color="#6E57A1"/><stop offset="1" stop-color="#222343"/></linearGradient></defs>
+ <path d="M44 2 76 20 84 49 66 78 44 94 22 78 4 49 12 20 44 2Z" stroke="url(#amethyst)" stroke-width="1.35" opacity=".85"/>
+ <path d="M44 10 70 25 77 48 62 72 44 85 26 72 11 48 18 25 44 10Z" stroke="url(#gold)" stroke-opacity=".42"/>
+ <path d="m44 14 6 18 19 16-19 15-6 19-6-19-19-15 19-16 6-18Z" fill="url(#amethyst)" fill-opacity=".2" stroke="url(#gold)" stroke-width="1.4"/>
+ <path d="M27 61V34l11 14 12-14 11 27M27 61l11-13 12 13 11-27" stroke="url(#gold)" stroke-width="4.1" stroke-linejoin="miter"/>
+ <path d="M44 2v9M44 85v9M4 49h10M74 49h10" stroke="url(#gold)" stroke-width="1.5"/>
+ <circle cx="44" cy="48" r="3.4" fill="#F5DFA8"/>
+</svg>
